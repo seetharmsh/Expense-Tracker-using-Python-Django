@@ -1,0 +1,60 @@
+body {
+    background-image: url(/static/images/homepage.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.navbar {
+    padding-left: 7%;
+    padding-right: 7%;
+    background: transparent;
+}
+
+#navbarNav {
+    justify-content: right;
+}
+
+nav ul li {
+    padding-left: 0px;
+    padding-right: 4px;
+}
+
+.homepageh1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.homepageh2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+a {
+    font-size: 20px;
+    position: relative; 
+}
+
+a::after {
+    content: '';
+    width: 0;
+    height: 5px;
+    left: 25%;
+    top: 100%;
+    border-radius: 2px;
+    position: absolute;
+    background: white;
+    transition: 0.5s;
+
+}
+
+a:hover::after {
+    width: 50%;
+}
+
+.form {
+    width: 30%;
+}
